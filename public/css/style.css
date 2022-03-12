@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(238, 238, 238);
+}
+.titulo{
+    background:#FD8A22;
+    color:white;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    outline: blue solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtitulo{
+    background:#7700C7;
+    text-align: center;
+    width:auto;
+    height: 50px;
+    padding: 10px;
+    color:white;
+    margin: 20px 0 20px 0;
+}
+
+.estilo{
+    margin:30px 15px 20px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.imagenes{
+    height: 500px;
+    overflow: hidden;
+}
+
+.imagenes img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.id-personaje,.id-saga,.nombre-personaje,.des-personaje,.nombre-saga,.des-saga{
+    margin:5%;
+    color:black;
+}
